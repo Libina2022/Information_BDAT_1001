@@ -1,0 +1,27 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+    margin-bottom: 60px;
+    background-color: #e9e5e58c;
+}
+
+th { 
+    color: #ff0076 !important;
+}
+
+tr:nth-child(even) {
+    background-color: #9f9d9da3;
+}
